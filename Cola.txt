@@ -1,0 +1,32 @@
+'nCdEmpresa' => '',
+'sDsSenha' => '',
+'nCdServico' => '',
+'sCepOrigem' => '',
+'sCepDestino' => '',
+'nVlPeso' => '',
+'nCdFormato' => '',
+'nVlComprimento' => '',
+'nVlAltura' => '',
+'nVlLargura' => '',
+'nVlDiametro' => '',
+'sCdMaoPropria' => '',
+'nVlValorDeclarado' => '',
+'sCdAvisoRecebimento' => ''
+
+
+$nCdEmpresa = '';
+$sDsSenha = '';
+$nCdServico = '';
+$sCepOrigem = '';
+$sCepDestino = '';
+$nVlPeso = '';
+$nCdFormato = '';
+$nVlComprimento = '';
+$nVlAltura = '';
+$nVlLargura = '';
+$nVlDiametro = '';
+$sCdMaoPropria = '';
+$nVlValorDeclarado = '';
+$sCdAvisoRecebimento = '';
+
+$urlXML = "http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?StrRetorno=xml&nCdEmpresa={$nCdEmpresa}&sDsSenha={$sDsSenha}&nCdServico={$nCdServico}&sCepOrigem={$sCepOrigem}&sCepDestino={$sCepDestino}&nVlPeso={$nVlPeso}&nCdFormato={$nCdFormato}&nVlComprimento={$nVlComprimento}&nVlAltura={$nVlAltura}&nVlLargura={$nVlLargura}&nVlDiametro={$nVlDiametro}&sCdMaoPropria={$sCdMaoPropria}&nVlValorDeclarado={$nVlValorDeclarado}&sCdAvisoRecebimento={$sCdAvisoRecebimento}";
